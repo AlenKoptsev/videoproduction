@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  margin-bottom: 119px;
+  padding-top: 15px;
+}
+
+.general-menu__item {
+  padding-top: 20px;
+  display: inline-flex;
+  margin-right: 45px;
+  font-size: 14px;
+}
+
+.general-menu__item:last-child {
+  margin: 0px;
+}
+
+
+.general-menu__item:hover {
+  color: #FF3D00;
+}
+
+.adress {
+  justify-content: flex-end;
+}
+
+.adress__phone {
+  font-size: 26px;
+}
+
+.adress__workhours {
+  font-size: 13px;
+  color: #FF3D00;
+  text-align: right;
+  text-decoration: underline;
+}

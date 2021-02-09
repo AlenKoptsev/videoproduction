@@ -1,0 +1,33 @@
+.top-line {
+  min-height: 407px;
+  padding-bottom: 5px;
+  display: flex;
+  background: #17191C url("../img/top-line.jpg") right 40% top no-repeat;
+}
+
+.page__title {
+  font-size: 72px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 70px;
+}
+
+.breadcrumbs ul li {
+  display: inline-flex;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #9A9A9A;
+}
+
+.breadcrumbs__item::after {
+  content: "/";
+  color: #9A9A9A;
+}
+
+.breadcrubs__item:last-child::after {
+  display: none;
+}
+
+.breadcrumbs__link--active {
+  font-weight: 700;
+}

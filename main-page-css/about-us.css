@@ -1,0 +1,51 @@
+.about-us {
+  position: relative;
+  height: 552px;
+  width: 1139px;
+  margin-bottom: 55px;
+}
+
+.about-us__img {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+.about-us__information {
+  position: absolute;
+  width: 785px;
+  min-height: 455px;
+  background: #fff;
+  border-radius: 5px;
+  right: 0;
+  bottom: 0;
+  padding: 70px 81px 84px;
+}
+
+.about-us__title{
+  position: relative;
+  font-size: 36px;
+  font-weight: 800;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.about-us__description {
+  position: absolute;
+  width: 502px;
+  color: #060606;
+  bottom:0px;
+  margin-bottom: 184px;
+}
+
+.about-us__button {
+  position: absolute;
+  padding: 18px 40px;
+  background: #FF5500;
+  bottom: 0px;
+  margin-bottom: 84px;
+}
+
+.about-us__button:hover {
+  background: #FF3D00;
+}

@@ -1,0 +1,36 @@
+.partners{
+  display: flex;
+  flex-wrap: wrap;
+  background: #F4F5F5;
+  color: #1A1B1E;
+  min-height: 537px;
+  padding: 88px 0px 50px;
+}
+
+.partners__item {
+  display: inline-flex;
+  margin-right: 15px;
+  filter: grayscale(100%)
+}
+
+.partners__item:hover {
+  filter: grayscale(0%);
+}
+
+.partners__item:nth-child(4n+1) {
+  margin: 0;
+}
+
+.partners__title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 70px;
+}
+
+.partners__links {
+  display: flex;
+  width: 270px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}

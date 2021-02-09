@@ -1,0 +1,44 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', helvetica, sans-serif;
+  background: #17191C;
+  line-height: 1.42;
+  color: #fff;
+  font-size: 16px;
+}
+
+.wrapper{
+  overflow: hidden;
+  min-width: 1150px; 
+}
+
+.container{
+  margin: 0 auto;
+  width: 1142px;
+}
+
+.wrapper--main--page {
+  background: url("../img/hero.png") center top no-repeat, url("../img/bottom-pic.png") center bottom 306px no-repeat;
+}
