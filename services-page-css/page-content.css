@@ -47,6 +47,7 @@
 .page-content__item-button--nonactive:hover {
   background: #FF3D00;
   color: #fff;
+  transition: 0.5s;
 }
 
 .page-content__item-button--active {
@@ -57,19 +58,5 @@
 
 .page-content__item-button--active:hover {
   background: #FF3D00;
+  transition: 0.5s;
 } 
-
-.pagination--services {
-  padding-top: 21px;
-  display: flex;
-  justify-content: center;
-}
-
-.pagination__item:hover {
-  vertical-align: center;
-  width: 32px;
-  height: 32px;
-  background-color: #FF5500;
-  border-radius: 50%;
-  color: #fff;
-}

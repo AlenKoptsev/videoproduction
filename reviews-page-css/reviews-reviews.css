@@ -1,0 +1,96 @@
+.reviews {
+  background: #fff;
+  color: #303030;
+  background-size: auto;
+  padding-top: 94px;
+  padding-bottom: 92px;
+  
+}
+
+.reviews__list{
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+
+
+}
+
+.reviews__items {
+  padding: 50px 30px;
+  background: #F4F5F5;
+  margin-bottom: 20px;
+  max-width: 557px;
+
+}
+
+.avatar {
+  display: flex;
+  width: 142px;
+  height: 142px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 22px;
+}
+
+.reviews__person {
+  display: flex;
+  align-items: center;
+  margin-bottom: 27px;
+}
+
+.reviews__person-name {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1A1B1E;
+  margin-bottom: 11px;
+}
+
+.reviews__person-name:hover {
+  color: #2E77A4;
+  text-decoration: underline;
+}
+
+.reviews__person-name:after {
+  content: url("../img/vk-blue\ 1.png");
+  width: 30px;
+  height: 30px;
+}
+
+.tag__list {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.tag__item {
+  font-size: 13px;
+  padding: 10px 25px;
+  border-radius: 50px;
+  background: #E7E7E7;
+  margin: 0px 7px 7px 0px;
+}
+
+.tag__item--active {
+  background: #F2D4C9;
+}
+
+.reviews__title {
+  font-size: 30px;
+  color: #222;
+  font-weight: 700;
+}
+
+.reviews__description {
+  font-size: 14px;
+  font-weight: 400;
+  color: #818181;
+}
+
+.reviews__date {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1A1B1E;
+}

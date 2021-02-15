@@ -1,8 +1,8 @@
 .top-line {
-  min-height: 407px;
+  min-height: 406px;
   padding-bottom: 5px;
   display: flex;
-  background: #17191C url("../img/top-line.jpg") right 40% top no-repeat;
+  background: #17191C url("../img/top-line.jpg") right 40% no-repeat;
 }
 
 .page__title {

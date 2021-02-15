@@ -60,6 +60,7 @@
 .services__item-button--nonactive:hover {
   background: #FF3D00;
   color: #fff;
+  transition: 0.5s;
 }
 
 .services__item-button--active {
@@ -70,4 +71,5 @@
 
 .services__item-button--active:hover {
   background: #FF3D00;
+  transition: 0.5s;
 } 

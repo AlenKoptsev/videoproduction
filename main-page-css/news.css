@@ -46,7 +46,7 @@
   object-fit: cover;
 }
 
-.pagination--news{
+.pagination{
   margin-top: 50px;
   text-align: center;
 }
@@ -58,20 +58,22 @@
 
 .pagination__item {
   display: inline-block;
+  line-height: 32px;
+  width: 32px;
+  height: 32px;
 }
 
 .pagination__item:hover {
   vertical-align: center;
-  width: 32px;
-  height: 32px;
   background-color: #FF5500;
   border-radius: 50%;
+  transition: 0.2s;
 }
 
 .pagination__number {
   font-weight: bold;
 }
 
-.pagination__indikator,.pagination__item {
+.pagination__indikator {
   margin-left: 20px;
 }

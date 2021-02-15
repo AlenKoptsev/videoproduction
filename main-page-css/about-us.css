@@ -48,4 +48,5 @@
 
 .about-us__button:hover {
   background: #FF3D00;
+  transition: 0.5s;
 }

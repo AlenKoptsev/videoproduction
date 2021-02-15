@@ -20,6 +20,7 @@
 
 .general-menu__item:hover {
   color: #FF3D00;
+  transition: 0.5s;
 }
 
 .adress {
